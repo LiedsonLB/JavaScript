@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste back</title>
+    <script src="./script.js" defer></script>
+</head>
+<body style="height: 100vh;">
+    <div id="addImovel" style="height: 100%; display: flex; align-items: center; justify-content: center; flex-direction: column;">
+        <h2>Publicar Imovel</h2>
+        <form action="" style=" display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px;" id="form">
+            <input type="text" id="nome" placeholder="Nome Imovel">
+            <input type="text" id="preco" placeholder="Preço Imovel">
+            <select name="" id="localizacao" style="width: 100%;">
+                <option value="" selected disabled></option>
+                <option value="Piaui">Piaui</option>
+            </select>
+            <textarea name="descricao" id="descricao" cols="21" rows="10" placeholder="Descrição imovel"></textarea>
+            <button type="submit" id="publicar">Publicar</button>
+        </form>
+    </div>
+    <input type="search" id="search" placeholder="Procurar Imovel...">
+    <div id="imoveisContainer"></div>
+</body>
+</html>
